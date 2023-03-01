@@ -1,12 +1,12 @@
 MCU(Micro Controller Unit) - 
-ESP32 (no further requirement of HC05 or WiFi Module)
+ESP32 (no further requirement of HC05 or WiFi Module) ~ Rs.300
 
 Sensor - 
-1. Flex Sensor (2.2 inches)
-2. MPU6500 Gyroscope/Accelerometer/Digital Motion Processor (DMP) 6-axis Motion Sensor with I2C/SPI Interface (uses 3.3v so easy to implement with ESP32)
+1. Flex Sensor (2.2 inches) - #5 ~ Rs.500 to Rs.700
+2. MPU6500 Gyroscope/Accelerometer/Digital Motion Processor (DMP) 6-axis Motion Sensor with I2C/SPI Interface (uses 3.3v so easy to implement with ESP32) ~ Rs.200
 
 Glove-
-Decathlon Mens Golf Glove
+Decathlon Mens Golf Glove ~ Rs.400
 
 Power Supply-
 1. Either direct USB supply or
