@@ -1,0 +1,21 @@
+Before connecting to any pin verify if the pin supports ADC
+
+const int flexPin = 14; //pin D14 to read analog input
+
+int value, m_value; //save analog value
+
+
+void setup(){
+  Serial.begin(115200);       //Begin serial communication
+}
+
+void loop(){
+  
+  value = analogRead(flexPin);         //Read and save analog value from Flex sensor
+  m_value = map(value, 0, 4095, 0, 255); //Map value to use with different actuators
+  Serial.println(value);                 //Print original value
+  Serial.println(m_value);               //Print mapped value 
+  delay(500);                          //Small delay
+  
+}
+
