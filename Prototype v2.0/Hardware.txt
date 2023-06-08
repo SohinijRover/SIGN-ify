@@ -1,0 +1,20 @@
+MCU(Micro Controller Unit) - 
+
+PCB:
+BLE module embedded (communication with app)
+microspeaker embedded
+microprocessor
+space for MPU
+cut out in centre for MPU 6050
+shunt resistor in PCB with male pins
+
+Sensors: 
+1. Flex Sensor (2.2 inches) - #7 ~
+2. MPU6500 Gyroscope/Accelerometer/Digital Motion Processor (DMP) 6-axis Motion Sensor with I2C/SPI Interface (uses 3.3v so easy to implement with ESP32)
+SparkFun Triple Axis Accelerometer Breakout – ADXL337
+
+Glove:  Customized glove with adjustable strap: Rs. 2000
+
+Power Supply: 
+Rechargable Li-ion
+wireless charging (OPTIONAL)
