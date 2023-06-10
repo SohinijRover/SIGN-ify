@@ -1,20 +1,16 @@
-MCU(Micro Controller Unit) - 
-
+MCU(Micro Controller Unit) - To be decided based on finalized components
+Best options: ARM Cortex M4
 PCB:
-BLE module embedded (communication with app)
-microspeaker embedded
-microprocessor
-space for MPU
-cut out in centre for MPU 6050
-shunt resistor in PCB with male pins
-
-Sensors: 
-1. Flex Sensor (2.2 inches) - #7 ~
-2. MPU6500 Gyroscope/Accelerometer/Digital Motion Processor (DMP) 6-axis Motion Sensor with I2C/SPI Interface (uses 3.3v so easy to implement with ESP32)
-SparkFun Triple Axis Accelerometer Breakout – ADXL337
-
-Glove:  Customized glove with adjustable strap: Rs. 2000
-
+>BLE module embedded (communication with app)
+>Micro Speaker embedded
+>Micro-Processor
+>Cut out in centre for MPU 6050
+>Shunt resistors with male pins (for flex connector) (if possible, micro potentiometers)
+Sensors:
+1. Flex Sensor (2.2 inches) - #7 ~ 5 fingers + 2 backups
+2. MPU6050 - Gyroscope/Accelerometer/Digital Motion Processor (DMP) 6-axis Motion Sensor with I2C/SPI Interface (uses 3.3v so easy to implement with ESP32) 
+3. SparkFun Triple Axis Accelerometer Breakout – ADXL337 - 3 Axis finger position
+Glove:  Customized glove with adjustable strap and fingertip cuts: <=Rs. 2000(Vendor pricing)
 Power Supply: 
-Rechargable Li-ion
-wireless charging (OPTIONAL)
+1. Rechargable Li-ion (based on sensors to power)
+2. Wireless charging (OPTIONAL)
