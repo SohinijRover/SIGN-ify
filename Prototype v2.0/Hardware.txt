@@ -1,5 +1,5 @@
 MCU(Micro Controller Unit) - To be decided based on finalized components
-Best options: ARM Cortex M4
+Best options: ARM Cortex M4 or Teensy board
 PCB:
 >BLE module embedded (communication with app)
 >Micro Speaker embedded
